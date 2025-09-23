@@ -1,0 +1,20 @@
+list1 = ["apple", "orange", 1, 5.3, [1, 2, 3]]
+# for i in range(0, len(list1)):
+#     print(list1[i])
+
+# string1 = "Hello World"
+# for i in list1:
+#     print(i)
+
+print(list1)
+list1[0] = 2000
+print(list1)
+list1 = tuple(list1)
+list1.append(5)
+
+tuple1 = (1, 2, "tuple1")
+print(tuple1)
+# tuple1[0] = 5
+modify = list(tuple1)
+modify[0] = 5
+
